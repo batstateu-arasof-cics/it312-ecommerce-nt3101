@@ -6,7 +6,7 @@
 ## Team — Group 7
 | | |
 | --- | --- |
-| Group GitHub account | @fainted19 |
+| Group GitHub account | @multigames4ever-cmd |
 | Members | 3 (names are in the class tracker) |
 
 ## Scope

@@ -70,7 +70,7 @@ To use MySQL instead, set `DB_CONNECTION=mysql` and the `DB_*` values in `.env`,
 | 4 | @euel-villavicencio | **Catalog + Search** | `app/Modules/Catalog`, `app/Modules/Search` | Medium | 4 |
 | 5 | @keldigno | **Platform (Repo Admin / QA)** | `tests/Feature/Integration`, `.github`, `docs` | Hard | 4 |
 | 6 | _not set yet: add it in your first PR_ | **Users & Auth** | `app/Modules/Users` | Medium | 4 |
-| 7 | @fainted19 | **Cart & Wishlist** | `app/Modules/Cart` | Easy | 3 |
+| 7 | @multigames4ever-cmd | **Cart & Wishlist** | `app/Modules/Cart` | Easy | 3 |
 
 Groups that own two modules are graded on Must 1–2 of each module; Must 3–4 count as Stretch. Member names are kept in the class tracker, not in this repo.
 
