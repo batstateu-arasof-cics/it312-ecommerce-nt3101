@@ -1,0 +1,66 @@
+# NT 3101 — who must review changes to each folder.
+# GitHub teams are created by github-setup/setup.sh: nt3101-group-1 ... and instructors.
+# Group 5 is the Platform group; it merges into develop.
+
+*                                     @batstateu-arasof-cics/instructors
+
+# Shared contracts and core files - instructor only
+/app/Contracts/                       @batstateu-arasof-cics/instructors
+/app/Events/                          @batstateu-arasof-cics/instructors
+/app/Providers/                       @batstateu-arasof-cics/instructors
+/bootstrap/                           @batstateu-arasof-cics/instructors
+/config/                              @batstateu-arasof-cics/instructors
+/database/migrations/                 @batstateu-arasof-cics/instructors
+/database/seeders/DatabaseSeeder.php  @batstateu-arasof-cics/instructors
+/resources/views/layouts/             @batstateu-arasof-cics/instructors
+/routes/                              @batstateu-arasof-cics/instructors
+/mock-gateway/                        @batstateu-arasof-cics/instructors
+/.github/                             @batstateu-arasof-cics/instructors
+/docs/RUBRIC.md                       @batstateu-arasof-cics/instructors
+/docs/TIMELINE.md                     @batstateu-arasof-cics/instructors
+
+# Platform group (Group 5)
+/tests/Feature/StarterFlowTest.php    @batstateu-arasof-cics/nt3101-group-5
+/tests/Feature/Integration/           @batstateu-arasof-cics/nt3101-group-5
+/.github/workflows/                   @batstateu-arasof-cics/nt3101-group-5 @batstateu-arasof-cics/instructors
+/CHANGELOG.md                         @batstateu-arasof-cics/nt3101-group-5
+/docs/FAQ.md                          @batstateu-arasof-cics/nt3101-group-5
+
+# Modules
+# Users & Auth: Group 6
+/app/Modules/Users/                   @batstateu-arasof-cics/nt3101-group-6
+/tests/Feature/Users/                 @batstateu-arasof-cics/nt3101-group-6
+# Product Catalog: Group 4
+/app/Modules/Catalog/                 @batstateu-arasof-cics/nt3101-group-4
+/tests/Feature/Catalog/               @batstateu-arasof-cics/nt3101-group-4
+# Search & Filters: Group 4
+/app/Modules/Search/                  @batstateu-arasof-cics/nt3101-group-4
+/tests/Feature/Search/                @batstateu-arasof-cics/nt3101-group-4
+# Cart & Wishlist: Group 7
+/app/Modules/Cart/                    @batstateu-arasof-cics/nt3101-group-7
+/tests/Feature/Cart/                  @batstateu-arasof-cics/nt3101-group-7
+# Checkout & Orders: Group 3
+/app/Modules/Orders/                  @batstateu-arasof-cics/nt3101-group-3
+/tests/Feature/Orders/                @batstateu-arasof-cics/nt3101-group-3
+# Payments: Group 1
+/app/Modules/Payments/                @batstateu-arasof-cics/nt3101-group-1
+/tests/Feature/Payments/              @batstateu-arasof-cics/nt3101-group-1
+# Inventory & Stock: Group 2
+/app/Modules/Inventory/               @batstateu-arasof-cics/nt3101-group-2
+/tests/Feature/Inventory/             @batstateu-arasof-cics/nt3101-group-2
+# Admin Dashboard & Reports: Group 2
+/app/Modules/Dashboard/               @batstateu-arasof-cics/nt3101-group-2
+/tests/Feature/Dashboard/             @batstateu-arasof-cics/nt3101-group-2
+# Notifications: not assigned
+/app/Modules/Notifications/           @batstateu-arasof-cics/instructors
+/tests/Feature/Notifications/         @batstateu-arasof-cics/instructors
+# Shipping & Tracking: not assigned
+/app/Modules/Shipping/                @batstateu-arasof-cics/instructors
+/tests/Feature/Shipping/              @batstateu-arasof-cics/instructors
+# Reviews & Ratings: not assigned
+/app/Modules/Reviews/                 @batstateu-arasof-cics/instructors
+/tests/Feature/Reviews/               @batstateu-arasof-cics/instructors
+# Vouchers & Discounts: not assigned
+/app/Modules/Vouchers/                @batstateu-arasof-cics/instructors
+/tests/Feature/Vouchers/              @batstateu-arasof-cics/instructors
+/app/Models/User.php                  @batstateu-arasof-cics/nt3101-group-6
